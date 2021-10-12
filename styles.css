@@ -7,6 +7,7 @@ ul,
 li {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 body {
   background: url(img/tm-bg-slide-1.jpg) no-repeat;
@@ -23,7 +24,7 @@ header {
 }
 
 header img {
-  width: 30%;
+  width: 20%;
   border-radius: 50%;
   border: 5px solid rgb(102, 60, 150);
   margin: 30px;
@@ -52,3 +53,30 @@ header h2 {
   font-weight: bold;
   text-shadow: 1px 1px #000;
 }
+
+section#bio {
+  background: white;
+  width: 44%;
+  float: left;
+  padding: 2%;
+}
+
+section#skills {
+  background: rgb(177, 135, 226);
+  float: right;
+  width: 44%;
+  padding: 2%;
+}
+
+section:nth-child(odd) {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*
+.block1::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+*/

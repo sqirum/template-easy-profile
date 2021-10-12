@@ -12,6 +12,7 @@ li {
 body {
   background: url(img/tm-bg-slide-1.jpg) no-repeat;
   color: #333;
+  background-size: cover;
 }
 
 h3 {
@@ -186,4 +187,53 @@ section:nth-child(odd) {
   content: "";
   display: block;
   clear: both;
+}
+
+main::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+footer {
+  width: 30%;
+  text-align: center;
+  margin: 60px 35%;
+}
+
+footer .copyright {
+  color: #eee;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer ul li a .fa-facebook {
+  color: #3b5998;
+}
+
+footer ul li a .fa-google {
+  color: #ea4335;
+}
+
+footer ul li a .fa-twitter {
+  color: #1da1f2;
+}
+
+footer ul li a .fa-dribbble {
+  color: #ea4c89;
+}
+
+footer ul li a .fa-github {
+  color: white;
+}
+
+footer ul li a .fa-behance {
+  color: gray;
 }

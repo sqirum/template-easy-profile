@@ -10,7 +10,7 @@ li {
   list-style-type: none;
 }
 body {
-  background: url(img/tm-bg-slide-1.jpg) no-repeat;
+  background: url(img/wallpaper-2.jpg) no-repeat;
   color: #333;
   background-size: cover;
 }
@@ -76,10 +76,8 @@ header h1::before {
 }
 
 header h2 {
-  color: #eee;
+  color: #333;
   font-size: 40px;
-  font-weight: bold;
-  text-shadow: 1px 1px #000;
 }
 
 section#bio {
@@ -202,7 +200,8 @@ footer {
 }
 
 footer .copyright {
-  color: #eee;
+  color: #333;
+  margin-bottom: 15px;
 }
 
 footer ul li {
